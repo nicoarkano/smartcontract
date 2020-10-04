@@ -1,5 +1,5 @@
 # Smartcontract
-Contratos inteligentes para subir a la Blockchain de RSK
+Contratos inteligentes para subir a las Blockchains de RSK, Avalanche y Ethereum
 
 # Contratos Simples
 Se encuentran en la carpeta "simples"
