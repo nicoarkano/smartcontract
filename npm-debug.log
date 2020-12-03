@@ -1,0 +1,92 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install', '-', 'truffle' ]
+2 info using npm@3.5.2
+3 info using node@v8.10.0
+4 verbose config Skipping project config: /home/nicoarkano/.npmrc. (matches userconfig)
+5 silly loadCurrentTree Starting
+6 silly install loadCurrentTree
+7 silly install readLocalPackageData
+8 silly fetchPackageMetaData -
+9 silly fetchPackageMetaData truffle
+10 silly fetchOtherPackageData -
+11 silly cache add args [ '-', null ]
+12 verbose cache add spec -
+13 silly fetchNamedPackageData truffle
+14 silly mapToRegistry name truffle
+15 silly mapToRegistry using default registry
+16 silly mapToRegistry registry https://registry.npmjs.org/
+17 silly mapToRegistry uri https://registry.npmjs.org/truffle
+18 silly cache add parsed spec Result {
+18 silly cache add   raw: '-',
+18 silly cache add   scope: null,
+18 silly cache add   name: null,
+18 silly cache add   rawSpec: '-',
+18 silly cache add   spec: '/home/nicoarkano/smartcontract/-',
+18 silly cache add   type: 'local' }
+19 error addLocal Could not install /home/nicoarkano/smartcontract/-
+20 silly fetchPackageMetaData Error: ENOENT: no such file or directory, open '/home/nicoarkano/smartcontract/-'
+20 silly fetchPackageMetaData  error for - { Error: ENOENT: no such file or directory, open '/home/nicoarkano/smartcontract/-'
+20 silly fetchPackageMetaData   errno: -2,
+20 silly fetchPackageMetaData   code: 'ENOENT',
+20 silly fetchPackageMetaData   syscall: 'open',
+20 silly fetchPackageMetaData   path: '/home/nicoarkano/smartcontract/-' }
+21 verbose request uri https://registry.npmjs.org/truffle
+22 verbose request no auth needed
+23 info attempt registry request try #1 at 21:44:46
+24 verbose request id 754764064b949367
+25 http request GET https://registry.npmjs.org/truffle
+26 http 200 https://registry.npmjs.org/truffle
+27 verbose headers { date: 'Tue, 01 Dec 2020 00:44:48 GMT',
+27 verbose headers   'content-type': 'application/json',
+27 verbose headers   'transfer-encoding': 'chunked',
+27 verbose headers   connection: 'keep-alive',
+27 verbose headers   'set-cookie':
+27 verbose headers    [ '__cfduid=d73e3222805de3932c00bd160a726a4a41606783487; expires=Thu, 31-Dec-20 00:44:47 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+27 verbose headers   'cf-ray': '5fa8c81a6e14f7b2-EZE',
+27 verbose headers   'cache-control': 'public, max-age=300',
+27 verbose headers   etag: 'W/"875b1b65a54de9919b9bc4e03e042aff"',
+27 verbose headers   'last-modified': 'Sat, 28 Nov 2020 02:12:21 GMT',
+27 verbose headers   vary: 'accept-encoding, accept',
+27 verbose headers   'cf-cache-status': 'REVALIDATED',
+27 verbose headers   'cf-request-id': '06bd5b647c0000f7b2bc211000000001',
+27 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+27 verbose headers   server: 'cloudflare',
+27 verbose headers   'content-encoding': 'gzip' }
+28 silly get cb [ 200,
+28 silly get   { date: 'Tue, 01 Dec 2020 00:44:48 GMT',
+28 silly get     'content-type': 'application/json',
+28 silly get     'transfer-encoding': 'chunked',
+28 silly get     connection: 'keep-alive',
+28 silly get     'set-cookie':
+28 silly get      [ '__cfduid=d73e3222805de3932c00bd160a726a4a41606783487; expires=Thu, 31-Dec-20 00:44:47 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+28 silly get     'cf-ray': '5fa8c81a6e14f7b2-EZE',
+28 silly get     'cache-control': 'public, max-age=300',
+28 silly get     etag: 'W/"875b1b65a54de9919b9bc4e03e042aff"',
+28 silly get     'last-modified': 'Sat, 28 Nov 2020 02:12:21 GMT',
+28 silly get     vary: 'accept-encoding, accept',
+28 silly get     'cf-cache-status': 'REVALIDATED',
+28 silly get     'cf-request-id': '06bd5b647c0000f7b2bc211000000001',
+28 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+28 silly get     server: 'cloudflare',
+28 silly get     'content-encoding': 'gzip' } ]
+29 verbose get saving truffle to /home/nicoarkano/.npm/registry.npmjs.org/truffle/.cache.json
+30 silly rollbackFailedOptional Starting
+31 silly rollbackFailedOptional Finishing
+32 silly runTopLevelLifecycles Starting
+33 silly runTopLevelLifecycles Finishing
+34 silly install printInstalled
+35 verbose stack Error: ENOENT: no such file or directory, open '/home/nicoarkano/smartcontract/-'
+36 verbose cwd /home/nicoarkano/smartcontract
+37 error Linux 4.15.0-124-generic
+38 error argv "/usr/bin/node" "/usr/bin/npm" "install" "-" "truffle"
+39 error node v8.10.0
+40 error npm  v3.5.2
+41 error path /home/nicoarkano/smartcontract/-
+42 error code ENOENT
+43 error errno -2
+44 error syscall open
+45 error enoent ENOENT: no such file or directory, open '/home/nicoarkano/smartcontract/-'
+46 error enoent ENOENT: no such file or directory, open '/home/nicoarkano/smartcontract/-'
+46 error enoent This is most likely not a problem with npm itself
+46 error enoent and is related to npm not being able to find a file.
+47 verbose exit [ -2, true ]
