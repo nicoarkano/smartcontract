@@ -28,6 +28,5 @@ var input = {
 };
 
 const output = JSON.parse(solc.compile(JSON.stringify(input)));
-const abi = output.contracts['Inbox.sol']['Inbox'].abi;
-console.log(abi);
+module.exports = output.contracts['Inbox.sol']['Inbox'];
 
